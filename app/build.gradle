@@ -33,7 +33,8 @@ repositories {
         url = uri("https://maven.pkg.github.com/HieuNT1998/AndroidCI-Test")
         credentials {
             username = 'HieuNT1998'
-            password = localProperties.getProperty("GPR_TOKEN")
+//            password = localProperties.getProperty("GPR_TOKEN")
+            password = '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'
         }
     }
 }

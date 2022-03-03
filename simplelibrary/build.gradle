@@ -80,8 +80,10 @@ afterEvaluate {
                 url = uri("https://maven.pkg.github.com/HieuNT1998/AndroidCI-Test")
                 // url = uri("https://maven.pkg.github.com/PatilShreyas/AndroidGPR")
                 credentials {
-                    username = System.getenv("GPR_USER")
-                    password = System.getenv("GPR_KEY")
+//                    username = System.getenv("GPR_USER")
+//                    password = System.getenv("GPR_KEY")
+                    username = 'HieuNT1998'
+                    password = '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'
                 }
             }
         }
