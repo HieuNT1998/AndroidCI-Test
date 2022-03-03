@@ -77,7 +77,7 @@ afterEvaluate {
         repositories {
             maven {
                 name = "GitHubPackages"
-                url = uri("https://github.com/HieuNT1998/AndroidCI-Test")
+                url = uri("https://maven.pkg.github.com/HieuNT1998/AndroidCI-Test")
                 // url = uri("https://maven.pkg.github.com/PatilShreyas/AndroidGPR")
                 credentials {
                     username = System.getenv("GPR_USER")
