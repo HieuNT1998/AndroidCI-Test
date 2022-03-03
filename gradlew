@@ -21,6 +21,7 @@ while [ -h "$PRG" ]; do
 done
 SAVED="$(pwd)"
 #cd "$(dirname \"$PRG\")/" >/dev/null
+cd "`dirname \"$PRG\"`/" >/dev/null
 #cd "./Hieu" >/dev/null
 APP_HOME="$(pwd -P)"
 cd "$SAVED" >/dev/null
