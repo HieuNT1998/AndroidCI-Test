@@ -30,9 +30,9 @@ localProperties.load(new FileInputStream(rootProject.file("local.properties")))
 repositories {
     maven {
         name = "GitHubPackages"
-        url = uri("https://maven.pkg.github.com/PatilShreyas/AndroidGPR")
+        url = uri("https://github.com/HieuNT1998/AndroidCI-Test")
         credentials {
-            username = 'PatilShreyas'
+            username = 'HieuNT1998'
             password = localProperties.getProperty("GPR_TOKEN")
         }
     }
